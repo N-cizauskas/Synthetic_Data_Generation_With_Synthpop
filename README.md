@@ -10,6 +10,8 @@ The real and synthetic data is compared for each data type, and then the data ty
 
 The three studies chosen to create synthetic data from were selected because of availability.  In real use cases, all three datasets should have the same treatments and outcomes.  
 
+A Jupyter Notebook script is included for visualizing the results with boxplots and violin plots.
+
 ## Installation
 
 The script can be downloaded and run in R Studio.
@@ -32,6 +34,13 @@ The R Libraries used include the following:
 - reshape2
 - medicaldata
 - synthpop
+
+The Python libraries used included the following:
+
+- numpy
+- pandas
+- seaborn
+- matplotlib
 
 ## Usage
 
