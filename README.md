@@ -10,7 +10,7 @@ The real and synthetic data is compared for each data type, and then the data ty
 
 The three studies chosen to create synthetic data from were selected because of availability.  In real use cases, all three datasets should have the same treatments and outcomes.  
 
-A Jupyter Notebook script is included for visualizing the results with boxplots and violin plots.
+A Jupyter Notebook script ("Visual_DataType_Comparison.ipynb") is included for visualizing the results with boxplots and violin plots.
 
 ## Installation
 
