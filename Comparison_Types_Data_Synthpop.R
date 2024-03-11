@@ -314,14 +314,14 @@ between_sex_new$data <- rep("synthetic")
 between_sex <- merge(between_sex_og,between_sex_new, by.x = c("external", "observational", "rct", "data"), 
                    by.y = c("external", "observational", "rct", "data"), all.x = TRUE, all.y = TRUE)
 #export
-write.csv(between_sex, "C:/Users/c3058452/OneDrive - Newcastle University/Work in Progress//between_sex.csv", row.names=FALSE)
+write.csv(between_sex, "link address here", row.names=FALSE)
 
 # melt into three columns for graphing
 melted_between_sex <- melt(between_sex, id = c('data'))
 melted_between_sex %>% drop_na()
 
 #export melted
-write.csv(melted_between_sex, "C:/Users/c3058452/OneDrive - Newcastle University/Work in Progress//melted_between_sex.csv", row.names=FALSE)
+write.csv(melted_between_sex, "link address here", row.names=FALSE)
 
 
 
@@ -354,7 +354,7 @@ between_age <- merge(between_age_og,between_age_new, by.x = c("external", "obser
 
 
 #export
-write.csv(between_age, "C:/Users/c3058452/OneDrive - Newcastle University/Work in Progress//between_age.csv", row.names=FALSE)
+write.csv(between_age, "link address here", row.names=FALSE)
 
 
 
@@ -363,7 +363,7 @@ melted_between_age <- melt(between_age, id = c('data'))
 melted_between_age %>% drop_na()
 
 #export melted
-write.csv(melted_between_age, "C:/Users/c3058452/OneDrive - Newcastle University/Work in Progress//melted_between_age.csv", row.names=FALSE)
+write.csv(melted_between_age, "link address here", row.names=FALSE)
 
 
 
